@@ -1,0 +1,110 @@
+body {
+    background-color: #EFEFEF;
+}
+
+p {
+    font-size: 16px;
+}
+
+#font {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#title {
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 60px;
+    color: #E06666;
+    margin-top: 0px;
+}
+
+#getStarted {
+    background-color:#E06666;
+    color: white;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+}
+
+#getStarted:hover {
+    transition-duration: .2s;
+    background-color: white;
+    font-size: 24px;
+    color: #E06666;
+}
+
+.contain {
+    margin-bottom: 0px !important;
+}
+
+.nav ul li a {
+    font-size: 20px;
+    color: black;
+    margin-top: 35px;
+}
+
+.banner {
+    position: absolute;
+    top: 120px;
+    height: 500px;
+    background-image: url("../images/homepage_flock.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+    z-index: 1;
+}
+
+.bannerCover {
+    position: absolute;
+    top: 120px;
+    height: 500px;
+    background-color: rgba(0,0,0,.3);
+    z-index: 2;
+}
+
+.bannerCover h1 {
+    font-size: 80px;
+    color: white;
+}
+
+.bannerCover h4 {
+    color: white;
+    font-weight: 300;
+}
+
+.what {
+    margin-top: 580px;
+    padding-bottom: 50px !important;
+}
+
+.pics {
+    padding-top: 20px !important;
+    padding-bottom: 50px !important;
+}
+
+.signup {
+    height: 400px;
+    padding-top: 20px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 20px !important;
+    background-color: #E06666;
+    height: 400px;
+}
+
+.footerSection {
+    margin-top: 30px;
+}
+
+.footerSection ul li a  {
+    font-size: 18px;
+    color: white;
+}
+
+.footerSection ul li a:hover {
+    transition-duration: .2s;
+    color: #EA9999;
+}
+
